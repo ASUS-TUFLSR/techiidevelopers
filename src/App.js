@@ -16,8 +16,8 @@ const AppLayout = () => {
   return (
     <>
       <Header/>
-      <main className="py-3" >
-        <Container> 
+      <main>
+        <Container  style={{maxWidth:"1400px", paddingRight:"0px", paddingLeft:"0px"}} > 
           <Outlet/>
          </Container>
       </main>
