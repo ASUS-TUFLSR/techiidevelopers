@@ -14,7 +14,7 @@ const Footer = () => {
             <Row className="d-flex justify-content-between align-items-center" >
                 <div className="col-md-4" >
                     <Link to='/contact' >
-                     <button type="button" className="btn btn-outline-danger btn-lg mb-md-5" >
+                     <button type="button" className="btn btn-outline-primary btn-lg mb-md-5" >
                         Get In Touch
                      </button>
                      </Link>
@@ -36,19 +36,19 @@ const Footer = () => {
                     <div className="d-row d-md-flex justify-content-between  align-items-center " >
                         <div className="col-12 col-md-6 col-lg-5 mb-5 mt-4 my-md-0" >
                             <ul className="footer-navigation list-unstyled mb-0" >
-                                <Link to='/' className="text-decoration-none text-danger" >
+                                <Link to='/' className="text-decoration-none text-primary" >
                                     <li className="fw-semibold" >HOME</li>
                                 </Link>
-                                <Link to='/About' className="text-decoration-none text-danger" >
+                                <Link to='/About' className="text-decoration-none text-primary" >
                                     <li className="fw-semibold" >ABOUT</li>
                                 </Link>
-                                <Link to='/Blog' className="text-decoration-none text-danger" >
+                                <Link to='/Blog' className="text-decoration-none text-primary" >
                                     <li className="fw-semibold" >BLOG</li>
                                 </Link>
-                                <Link to='/Testimonial' className="text-decoration-none text-danger" >
+                                <Link to='/Testimonial' className="text-decoration-none text-primary" >
                                     <li className="fw-semibold" >TESTIMONIALS</li>
                                 </Link>
-                                <Link to='/contact' className="text-decoration-none text-danger" >
+                                <Link to='/contact' className="text-decoration-none text-primary" >
                                     <li className="fw-semibold" >CONTACT US</li>
                                 </Link>
                             </ul>

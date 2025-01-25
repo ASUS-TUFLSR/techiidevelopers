@@ -12,7 +12,7 @@ const Choose = () => {
                 <div className='col-lg-4'>
                     <Card className='d-flex align-items-center border-0 h-100' > 
                         <div className='mt-3'>
-                            <FaScrewdriverWrench/>
+                            <FaScrewdriverWrench style={{height:"40px", width:"40px"}} />
                         </div>
                         <Card.Body>
                             <Card.Title className='text-center text-capitalize mb-3'>
@@ -27,7 +27,7 @@ const Choose = () => {
                 <div className='col-lg-4'>
                     <Card className='d-flex align-items-center border-0 h-100' > 
                         <div className='mt-3'>
-                            <FaShieldAlt/>
+                            <FaShieldAlt style={{height:"40px", width:"40px"}} />
                         </div>
                         <Card.Body>
                             <Card.Title className='text-center text-capitalize mb-3'>
@@ -42,7 +42,7 @@ const Choose = () => {
                 <div className='col-lg-4'>
                     <Card className='d-flex align-items-center border-0 h-100' > 
                         <div className='mt-3'>
-                            <FaHandshake/> 
+                            <FaHandshake style={{height:"40px", width:"40px"}} /> 
                             {/* increase size of the icons */}
                         </div>
                         <Card.Body>

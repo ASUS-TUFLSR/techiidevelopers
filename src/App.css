@@ -55,8 +55,9 @@ header {
 .scale-hover-effect:hover {
   transform: scale(1.05);
 }
+
 /* Accordion */
-.faq-section,
+.faq-section
 .accordion {
   width: 75%;
 }
@@ -75,6 +76,38 @@ header {
   filter: invert();
 }
 
+/* About page */
+
+
+.about-page header {
+  background-image: linear-gradient(rgba(5, 10, 35, 0.75), rgba(5, 10, 35, 0.75)), url(../src/utils/images/why-coworkers-are-not-your-friends-1.jpg);
+}
+
+/* Blog Page */
+.blog-page header {
+  background-image: linear-gradient(rgba(5, 10, 35, 0.75), rgba(5, 10, 35, 0.75)), url(../src/utils/images/double-exposure-caucasian-man-virtual-reality-vr-headset-is-presumably-gamer-hacker-cracking-code-into-secure-network-server-with-lines-code.jpg);
+}
+
+/* Testimonial Page */
+.test-page header {
+  background-image: linear-gradient(rgba(5, 10, 35, 0.75), rgba(5, 10, 35, 0.75)), url(../src/utils/images/maxresdefault\ \(1\).jpg);
+}
+
+/* Contact Page */
+.contact-page header {
+  background-image: linear-gradient(rgba(5, 10, 35, 0.75), rgba(5, 10, 35, 0.75)), url(../src/utils/images/two-business-people-standing-server-room-with-laptop-discussing.jpg);
+}
+
+.contact-form {
+  width: 50%;
+}
+
+.contact-form .form-control:focus,
+.contact-form .form-select:focus {
+  border-color: lightblue;
+  box-shadow: 0 0 0 0.25rem rgba(220, 53, 69, .25);
+
+}
 
 /* Footer */
 .footer-social-icons span:hover .fa-cons {
@@ -82,8 +115,9 @@ header {
 }
 
 .footer-navigation li:hover {
-  color: maroon;
+  color: lightblue;
 }
+
 
 /* media */
 @media only screen and (max-width: 992px) {
@@ -113,8 +147,24 @@ header {
 /* accordion media */
 @media only screen and (max-width: 992px) {
 
-  .faq-section,
+  .faq-section p,
   .accordion {
     width: 100%;
   }
+}
+/* contact media */
+@media only screen and (max-width: 992px) {
+
+  .contact-form {
+    width: 75%;
+  }
+
+}
+
+@media only screen and (max-width: 576px) {
+
+  .contact-form {
+    width: 75%;
+  }
+
 }
