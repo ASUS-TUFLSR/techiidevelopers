@@ -3,9 +3,9 @@ import { Carousel, Container, Image, Row } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 import team from '../utils/images/friendly-coworkers.jpg'
 import Choose from '../components/Choose'
-import img1 from '../utils/images/js.png.webp'
+import img1 from '../utils/images/js.png'
 import img2 from '../utils/images/py.png.jpeg'
-import img3 from '../utils/images/note.png.webp'
+import img3 from '../utils/images/note.png (1).png'
 
 
 const About = () => {

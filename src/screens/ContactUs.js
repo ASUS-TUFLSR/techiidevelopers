@@ -1,8 +1,8 @@
 import React from "react";
 import { Carousel, Col, Container, Form, Image, Row } from "react-bootstrap";
-import img1 from '../utils/images/note.png (1).png'
-import img2 from '../utils/images/note.png (1).png'
-import img3 from '../utils/images/note.png (1).png'
+import img1 from '../utils/images/h1.jpeg'
+import img2 from '../utils/images/h2.jpeg'
+import img3 from '../utils/images/h3.jpeg'
 
 
 const ContactUs = () => {
@@ -11,17 +11,17 @@ const ContactUs = () => {
   const clients = [
     {
       id:1,
-      title:"Brenden Eich",
+      title:"Hinjewadi",
       img:[img1],
     },
     {
       id:2,
-      title:"Guido van Rossum",
+      title:"Eon Park",
       img:[img2],
     },
     {
       id:3,
-      title:"Bill Gates",
+      title:"Baner I",
       img:[img3],
     },
   ]
@@ -68,9 +68,9 @@ const ContactUs = () => {
                     <Col sm={12} md={6} className="mb-3 mb-md-0" >
                       <Form.Label>Location</Form.Label>
                       <Form.Select defaultValue='Pune' >
-                        <option>Hinjewadi</option>
-                        <option>Hinjewadi</option>
-                        <option>Hinjewadi</option>
+                        <option>Hinjewadi Phase I </option>
+                        <option>Eon Park</option>
+                        <option>Baner I</option>
                       </Form.Select>
                     </Col>
                    <Col sm={12} md={6} className="mb-3 mb-md-0" >
@@ -100,7 +100,7 @@ const ContactUs = () => {
                 {client.title}
               </h2>
             </Carousel.Caption>
-            <Image  src={client.img} alt={client.title} style={{width:'30%', margin:'5px',padding:'20px', borderRadius:'20%'}} fluid />
+            <Image  src={client.img} alt={client.title} style={{width:'30%', margin:'5px',padding:'20px', borderRadius:'8%'}} fluid />
         </Carousel.Item>
       ))}
     </Carousel>

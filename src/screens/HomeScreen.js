@@ -5,7 +5,7 @@ import '../App.css';
 import Choose from "../components/Choose";
 import prof from '../utils/images/corporate-workers-brainstorming-together.jpg'
 import FaqAccordion from "../components/FaqAccordion";
-import JSblog from '../utils/images/js.png.webp'
+import JSblog from '../utils/images/js.png'
 import Noteblog from '../utils/images/note.png (1).png'
 import Pyblog from '../utils/images/py.png.jpeg'
 

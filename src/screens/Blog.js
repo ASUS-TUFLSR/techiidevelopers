@@ -1,9 +1,12 @@
 import React from 'react'
 import { Card, Container, Row } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
-import JSblog from '../utils/images/js.png.webp'
-import Noteblog from '../utils/images/note.png.webp'
+import JSblog from '../utils/images/js.png'
+import Noteblog from '../utils/images/note.png (1).png'
 import Pyblog from '../utils/images/py.png.jpeg'
+import AIblog from '../utils/images/AIN.jpeg'
+import Sblog from '../utils/images/steve-jobs-toolshero.jpg'
+import Mblog from '../utils/images/musk.webp'
 
 
 const Blog = () => {
@@ -31,21 +34,21 @@ const Blog = () => {
         },
         {
             id:4,
-            img:[Noteblog],
-            title:"Bill Gates’ Notepad: Simplicity That Stood the Test of Time",
-            description:"Introduced in 1985 with Windows 1.0, Notepad reflects Bill Gates' vision of productivity through simplicity. Lightweight and distraction-free, it remains a favorite tool for quick notes and code editing. Even in a world of advanced editors, Notepad proves that sometimes less is more."
+            img:[Sblog],
+            title:"Steve Jobs: The Visionary Innovator",
+            description:"Steve Jobs, co-founder of Apple Inc., was a pioneer whose vision reshaped the tech industry. Born in 1955, Jobs revolutionized personal computing, music, and communication with iconic products like the Macintosh, iPod, iPhone, and iPad.Known for his relentless focus on design and user experience, Jobs believed in creating technology that felt intuitive and elegant. His philosophy of connecting the dots and pushing boundaries inspired groundbreaking innovations"
         },
         {
             id:5,
-            img:[Pyblog],
-            title:"Guido van Rossum: The Creator of Python Driving AI",
-            description:"Guido van Rossum designed Python in 1991, aiming for simplicity and readability. Today, Python powers AI innovations, thanks to its robust libraries like TensorFlow and PyTorch. Its ease of use and active community have made it the top choice for data science and machine learning, shaping the AI revolution."
+            img:[AIblog],
+            title:"Geoffrey Hinton: The Godfather of AI",
+            description:"Geoffrey Hinton: The Godfather of AI Geoffrey Hinton, a pioneer in artificial intelligence, revolutionized the field with his work on neural networks. His development of the backpropagation algorithm in the 1980s and AlexNet in 2012 laid the foundation for modern deep learning, driving advancements in industries like healthcare and technology.Hinton’s contributions earned him the 2018 Turing Award, and his work at Google continues to inspire AI innovation. His legacy defines the future of intelligent technologies."
         },
         {
             id:6,
-            img:[Pyblog],
-            title:"Guido van Rossum: The Creator of Python Driving AI",
-            description:"Guido van Rossum designed Python in 1991, aiming for simplicity and readability. Today, Python powers AI innovations, thanks to its robust libraries like TensorFlow and PyTorch. Its ease of use and active community have made it the top choice for data science and machine learning, shaping the AI revolution."
+            img:[Mblog],
+            title:"Elon Musk: Visionary Entrepreneur",
+            description:"Elon Musk, the founder of Tesla, SpaceX, Neuralink, and The Boring Company, is a pioneer in technology and innovation. From revolutionizing electric vehicles to advancing space exploration, Musk’s ventures aim to shape the future. SpaceX’s reusable rockets and Tesla’s breakthroughs in sustainable energy have made him a global icon. Known for bold ideas like colonizing Mars and integrating AI with humanity, Musk continues to inspire and challenge the boundaries of what’s possible, redefining the future one innovation at a time."
         }
     
   ]
