@@ -17,39 +17,39 @@ const Testimonials = () => {
       {
             id:1,
             img:[t1],
-            title:"Web",
-            description:""
+            title:"Creative Agency Site",
+            description:"Delivered a vibrant and responsive design showcasing projects and services."
 
         },
         {
             id:2,
             img:[t2],
-            title:"Time",
-            description:""
+            title:"Immersive Animations",
+            description:"Created smooth, interactive 3D animations for modern landing pages."
         },
         {
             id:3,
             img:[t3],
-            title:"AI",
-            description:""
+            title:"AI Recommendation Engines",
+            description:"Built e-commerce sites with intelligent product suggestions"
         },
         {
             id:4,
             img:[t4],
-            title:"Time",
-            description:""
+            title:"Portfolio Perfection",
+            description:"Created a sleek personal portfolio site highlighting achievements and skills."
         },
         {
             id:5,
             img:[t5],
-            title:"Python",
-            description:""
+            title:"E-Commerce Excellence",
+            description:"Designed an intuitive online store with seamless checkout and advanced search filters."
         },
         {
             id:6,
             img:[t6],
-            title:"Guido AI",
-            description:""
+            title:"Guido AI: Interactive 3D Models",
+            description:"Developed stunning 3D product visualizations for e-commerce sites"
         }
     
   ]
